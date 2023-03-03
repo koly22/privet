@@ -13,7 +13,7 @@ try:
     print(10/0)except Exception:
     logging.exception("Exception")
 """>>> 
-2+25"""                                       н
+2+25"""
 if __name__ == "__main__":
     import doctest
     doctest.testmod()
